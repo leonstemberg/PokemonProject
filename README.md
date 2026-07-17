@@ -1,33 +1,30 @@
 # Pokemon Ultimate Champion
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+**Integrantes del Grupo:** 
+Leon Stemberg
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+**Descripción Corta del Videojuego:** 
+El proyecto propone un videojuego RPG de combates por turnos inspirado en la estructura clásica de Pokémon, el jugador tiene que avanzar por las salas de una liga final y deberá enfrentar de manera consecutiva a distintos entrenadores de alto nivel hasta llegar al campeón. La experiencia combinará exploración simple en vista top-down con combates laterales por turnos, donde será necesario administrar un equipo predeterminado, elegir ataques, cambiar de Pokémon y aprovechar las ventajas de tipos elementales para alcanzar la victoria. 
 
-## Platforms
+**Tecnologías Principales:**
+- LibGDX
+- Plataformas: Escritorio (LWJGL3)
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+**Enlace a la Wiki del Proyecto:**
+https://github.com/leonstemberg/PokemonProject.wiki.git
 
-## Gradle
+**Instrucciones de Compilación y Ejecución:**
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+1. **Clonar el repositorio:**
+   Abrí una terminal en tu computadora y ejecutá el siguiente comando:
+   `git clone https://github.com/Leonstemberg/PokemonProject.git`
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+2. **Requisitos previos:**
+   Asegurate de tener instalado **Java 17 o superior** en tu equipo[cite: 2].
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+3. **Ejecutar el proyecto:**
+   Navegá a la carpeta del proyecto descargado y ejecutá el comando de Gradle según tu sistema operativo:
+   - **Windows:** `gradlew.bat lwjgl3:run`
+   - **Linux/macOS:** `./gradlew lwjgl3:run`
+
+
